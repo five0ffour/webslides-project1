@@ -105,4 +105,6 @@ You can add:
 - Based on [SimpleSlides](https://github.com/jennschiffer/SimpleSlides), by [@JennSchiffer](https://twitter.com/jennschiffer).
 
 ## Graphics:  
-Splash:  https://images5.alphacoders.com/283/283337.jpg  
+Marvel Splash:  https://images5.alphacoders.com/283/283337.jpg  
+Venom:  http://getwallpapers.com/collection/marvel-venom-wallpaper-hd
+Iron-man:  http://7-themes.com/data_images/collection/9/4505277-iron-man-hd-wallpapers.jpg

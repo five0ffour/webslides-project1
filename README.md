@@ -1,4 +1,10 @@
-# Create stories with Karma
+# Marvel Hot or Not - WebSlides presentation
+Launch index.html to find a simple presentation on the squirrelmaggeddon's foray into developing a voting game based on the Marvel Character Universe.   This README won't repeat the story since the presentation mode would do it much better.  
+
+Instead, this readme is devoted to (and lifted from) the WebSlides framework.   All the capabilites and features used in the
+presentation are a direct benefit of this framework. 
+
+## WebSlidess - Create stories with Karma
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 [![Release](https://img.shields.io/github/release/webslides/webslides.svg)](https://github.com/webslides/webslides/releases/latest)

@@ -18,7 +18,7 @@
 
   <!-- SEO -->
   <title>Squirrelmageddon - Project 1 - Marvel Hot or Not</title>
-  <meta name="description" content="A proto-game pitting iconic Marvel heroes against their classical villains">
+  <meta name="description" content="A first sprint towards a game pitting Marvel heroes against their classical villains">
 
   <!-- URL CANONICAL -->
   <!-- <link rel="canonical" href="http://your-url.com/"> -->
@@ -54,13 +54,7 @@
   <meta name="twitter:image" content="static/images/share-webslides.jpg"> <!-- EDIT -->
 
   <!-- FAVICONS -->
-  <link rel="shortcut icon" sizes="16x16" href="static/images/favicons/favicon.png">
-  <link rel="shortcut icon" sizes="32x32" href="static/images/favicons/favicon-32.png">
-  <link rel="apple-touch-icon icon" sizes="76x76" href="static/images/favicons/favicon-76.png">
-  <link rel="apple-touch-icon icon" sizes="120x120" href="static/images/favicons/favicon-120.png">
-  <link rel="apple-touch-icon icon" sizes="152x152" href="static/images/favicons/favicon-152.png">
-  <link rel="apple-touch-icon icon" sizes="180x180" href="static/images/favicons/favicon-180.png">
-  <link rel="apple-touch-icon icon" sizes="192x192" href="static/images/favicons/favicon-192.png">
+  <link rel="shortcut icon" sizes="32x32" href="static/images/favicons/squirrel.png">
 
   <!-- Android -->
   <meta name="mobile-web-app-capable" content="yes">
@@ -114,11 +108,12 @@
             Sprint
             Retrospective</p>
 
-          <p> The original concept was to create a multi-player game based on the Marvel and DC Universes.  Quickly we 
-            pivoted to Marvel heros versus villains when we found that DC Comics doesn't publish an API.  With this basic
-            premise we conceived of a "Hot versus Not" multi-player game. </p> 
-            
-          <p></p> 
+          <p> The original concept was to create a multi-player game based on the Marvel and DC Universes. Quickly we
+            pivoted to Marvel heros versus villains when we found that DC Comics doesn't publish an API. With this
+            basic
+            premise we conceived of a "Hot versus Not" multi-player game. </p>
+
+          <p></p>
 
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod tempora ex, nesciunt fugit, atque
             repellat unde veniam quibusdam maiores minima recusandae illum earum laboriosam aliquid corporis
@@ -210,19 +205,7 @@
         </div>
       </section>
 
-      <!-- Slide 6 - Coding Examples -->
-      <section class="bg-black aligncenter">
-        <span class="background" style="background-image:url('https://source.unsplash.com/46T6nVjRc2w')"></span>
-        <div class="wrap">
-          <h1 class="bg-trans-dark text-landing text-shadow"><strong>Coding Examples</strong></h1>
-          <p class="text-shadow bg-trans-dark">
-            <a href="https://github.com/plipandfirt/Squirrelmageddon-Project-1">
-              https://github.com/plipandfirt/Squirrelmageddon-Project-1</a>
-          </p>
-        </div>
-      </section>
-
-      <!-- Slide 7 - Demonstration -->
+      <!-- Slide 6 - Demonstration -->
       <section class="bg-black">
         <span class="background" style="background-image:url('static/images/ironman.jpg')"></span>
         <div class="wrap size-60 alignleft">
@@ -245,12 +228,19 @@
         <!-- .end .wrap -->
       </section>
 
-      <!-- Slide 8 - Sprint Retrospective  -->
+      <!-- Slide 7 - Sprint Retrospective  -->
       <section class="bg-black aligncenter">
         <span class="background" style="background-image:url('https://source.unsplash.com/n9WPPWiPPJw/')"></span>
         <div class="wrap">
           <h2>Sprint Retrospective</h2>
-          <p class="text-intro">What went well and what suggestions to improve our process</p>
+          <p class="text-intro">
+            <ul style="list-style:none">
+              <li>What went well?</li>
+              <li>What didn’t go so well?</li>
+              <li>What have I learned?</li>
+              <li>What still puzzles me?</li>
+            </ul>
+          </p>
           <div class="grid">
             <div class="column">
               <h6>Chris</h6>
@@ -270,20 +260,36 @@
                 unde suscipit explicabo aliquam pariatur exercitationem voluptatibus culpa, nesciunt, aliquid repellat.</p>
               <p class="text-symbols">* * *</p>
             </div>
-            <div class="column">
+            <div class="column content-left">
               <h6>Mike</h6>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda libero accusantium quo nihil quam
-                unde suscipit explicabo aliquam pariatur exercitationem voluptatibus culpa, nesciunt, aliquid repellat.</p>
+              <ol>
+                <li>Team collaborated through GitHub exceptionally well, no rollbacks/merge conflicts. No pets </li>
+                <li>Be consistent communicating daily. Set a daily stand-up time</li>
+                <li>Learned JSON API integrations and Firebase, Wikipedia is robust </li>
+                <li>Constantly refine the vision and write features concisely. Go deeper into event driven design </li>
+              </ol>
               <p class="text-symbols">* * *</p>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- Slide 9 - Future Development  -->
-      <section class="bg-black">
-          <span class="background" style="background-image:url('static/images/guardians.jpg')"></span>
+      <!-- Slide 8 - Coding Examples -->
+      <section class="bg-black aligncenter">
+          <span class="background" style="background-image:url('https://source.unsplash.com/46T6nVjRc2w')"></span>
           <div class="wrap">
+            <h1 class="bg-trans-dark text-landing text-shadow"><strong>Coding Examples</strong></h1>
+            <p class="text-shadow bg-trans-dark">
+              <a href="https://github.com/plipandfirt/Squirrelmageddon-Project-1">
+                https://github.com/plipandfirt/Squirrelmageddon-Project-1</a>
+            </p>
+          </div>
+        </section>
+  
+        <!-- Slide 9 - Future Development  -->
+      <section class="bg-black">
+        <span class="background" style="background-image:url('static/images/guardians.jpg')"></span>
+        <div class="wrap">
           <div class="card-80 bg-black">
             <div class="flex-content">
               <h2>Future Development</h2>
@@ -294,6 +300,7 @@
                 <li><strong>Future APIs - OMDB Movie database integration </strong></li>
                 <li><strong>Game Design - grid based scoring, massive scale out for polling, integrate with Twitter</strong></li>
                 <li><strong>Theme Skins - Star Wars vs Star Trek, Sports themes, etc</strong></li>
+                <li><strong>Card Driven - Use the special abilities for a card driven game</strong></li>
             </div>
           </div>
         </div>

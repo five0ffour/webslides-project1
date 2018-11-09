@@ -110,32 +110,37 @@
         <div class="wrap size-60 alignleft">
           <h2 class="text-landing">Application Concept</h2>
           <br />
-          <p class="text-intro"> Talk about how we had a reality check and scope change to define MVP. Tie it into the
-            Sprint
-            Retrospective</p>
+          <div style='font-size: 65%;'>
+          <p class="text-intro"> Hot-or-Not Superhero (Marvel) Edition!</p>
 
-          <p> The original concept was to create a multi-player game based on the Marvel and DC Universes.  Quickly we 
-            pivoted to Marvel heros versus villains when we found that DC Comics doesn't publish an API.  With this basic
-            premise we conceived of a "Hot versus Not" multi-player game. </p> 
-            
-          <p></p> 
-
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod tempora ex, nesciunt fugit, atque
-            repellat unde veniam quibusdam maiores minima recusandae illum earum laboriosam aliquid corporis
-            temporibus incidunt cupiditate natus? Expedita, eaque neque facilis laudantium corporis rerum quaerat
-            fuga doloremque, vitae nam iusto unde accusantium ut atque, accusamus dignissimos commodi officiis?
-            Illum temporibus, dicta quae atque quasi autem odio! Odio nisi error soluta explicabo, iusto, nam
-            expedita nemo blanditiis velit aliquid voluptatibus. Eos quisquam incidunt amet suscipit iste,
-            architecto omnis, inventore unde libero magnam ipsum, doloremque hic aliquam rem quaerat sapiente odit
-            maiores dolor consectetur. Error sequi ratione ea repellat aperiam consectetur totam iste enim
-            consequuntur corporis, non culpa commodi possimus quam cum tempora nobis animi, illo unde, ab
-            laboriosam sit odio dicta itaque! Voluptate magnam facilis illo laborum. Dicta possimus doloremque quia
-            et corrupti, dolorem iusto delectus, eveniet eaque, dolore sint adipisci blanditiis. Qui tenetur
-            placeat sunt libero consectetur eum iusto, fugit blanditiis error ducimus suscipit, laboriosam
-            voluptate pariatur ea unde est recusandae asperiores, dicta magnam quasi. Labore sint, ea quia pariatur
-            quos eligendi hic enim! Quos vitae consequuntur suscipit repellat non dolorum eum sequi distinctio ad
-            commodi quis dicta possimus blanditiis, delectus odit quasi magnam ipsam cum! Nobis.</p>
+          <p> The original concept was to create a multi-player game based on the Marvel and DC Universes. Players
+            would log into the game and select a “tribe” -- Marvel vs DC. Once the tribe was selected – users would
+            pick a Hero or Villain from the respective Superhero Universe.
+              Quickly we pivoted to Marvel only ‘Heroes vs Villains” when we found that DC Comics doesn't publish an
+            API. With this basic premise we conceived the idea of a "Hot versus Not" multi-player game. 
+          
+          <p>
+              The premise of the game:  Each player logs in, choses Hero or Villain, and has their hero or villain logged to the system. When the
+            game began the screen would randomly select 2 “Champions” from the pool of all that were selected. In
+            real-time, all play would vote for which hero/villain was Hot – the winner would move onto the next round,
+            the loser, would Not. The scoring was a simple voting system – highest votes wins.
+              
+              After team Squirrelmageddon got started on basic design elements and implementing technologies - we
+            evaluated what would need to be done to make the game work. With the goal of having the whole class to
+            participate – we asked:
+            -What would initiate the start of the game?
+            -What if multiple people all picked the same hero?
+            -Do we wait for everyone to vote – how does the round end? How does the game end?
           </p>
+          <p>
+            We wanted to stick with our theme of Marvel, but without a backend we felt managing all the users, choices,
+            game logic, round management etc would be too complex. The decision was made to scale back the game -
+            instead make it more of an information retrieval system for the universe of marvel heroes. This would be
+            done by utilizing the Marvel API and the Wiki API. Users would select a hero or villain, this logs their
+            choice, and they would be able to retrieve additional information on this hero or villain. A nice feature
+            was that users could also see what champions other users selected & query information about those as well!
+          </p>
+        </div>
         </div>
       </section>
 
@@ -282,8 +287,8 @@
 
       <!-- Slide 9 - Future Development  -->
       <section class="bg-black">
-          <span class="background" style="background-image:url('static/images/guardians.jpg')"></span>
-          <div class="wrap">
+        <span class="background" style="background-image:url('static/images/guardians.jpg')"></span>
+        <div class="wrap">
           <div class="card-80 bg-black">
             <div class="flex-content">
               <h2>Future Development</h2>

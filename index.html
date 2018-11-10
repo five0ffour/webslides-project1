@@ -18,7 +18,7 @@
 
   <!-- SEO -->
   <title>Squirrelmageddon - Project 1 - Marvel Hot or Not</title>
-  <meta name="description" content="A proto-game pitting iconic Marvel heroes against their classical villains">
+  <meta name="description" content="A first sprint towards a game pitting Marvel heroes against their classical villains">
 
   <!-- URL CANONICAL -->
   <!-- <link rel="canonical" href="http://your-url.com/"> -->
@@ -54,13 +54,7 @@
   <meta name="twitter:image" content="static/images/share-webslides.jpg"> <!-- EDIT -->
 
   <!-- FAVICONS -->
-  <link rel="shortcut icon" sizes="16x16" href="static/images/favicons/favicon.png">
-  <link rel="shortcut icon" sizes="32x32" href="static/images/favicons/favicon-32.png">
-  <link rel="apple-touch-icon icon" sizes="76x76" href="static/images/favicons/favicon-76.png">
-  <link rel="apple-touch-icon icon" sizes="120x120" href="static/images/favicons/favicon-120.png">
-  <link rel="apple-touch-icon icon" sizes="152x152" href="static/images/favicons/favicon-152.png">
-  <link rel="apple-touch-icon icon" sizes="180x180" href="static/images/favicons/favicon-180.png">
-  <link rel="apple-touch-icon icon" sizes="192x192" href="static/images/favicons/favicon-192.png">
+  <link rel="shortcut icon" sizes="32x32" href="static/images/favicons/squirrel.png">
 
   <!-- Android -->
   <meta name="mobile-web-app-capable" content="yes">
@@ -76,9 +70,9 @@
       <!-- Slide 1 - Marvel Hot or Not Title Slide -->
       <section class="bg-black aligncenter">
         <span class="background" style="background-image:url('https://images5.alphacoders.com/283/283337.jpg')"></span>
-        <div class="wrap">
+        <div class="wrap size-80 bg-trans-light">
           <h2 class="text-landing" style="color:white"><strong>Marvel Hot or Not</strong></h2>
-          <p class="text-content text-intro" style="color:red"><strong>A squirrelmaggeddon production</strong><br>
+          <p class="text-intro" style="color:white"><strong>A squirrelmageddon production</strong><br>
           </p>
         </div>
       </section>
@@ -91,13 +85,13 @@
               <img src="https://nerdist.com/wp-content/uploads/2018/03/Fantastic-Four-featured.jpg" alt="Fantastic Four">
             </figure>
             <div class="flex-content">
-              <h2>Squirrelmaggeddon Team</h2>
+              <h2>Squirrelmageddon Team</h2>
               <br />
               <ul style="list-style: none; text-indent: -23px;">
-                <li><strong>Chris Gauthier - chrsgauthier5</strong></li>
-                <li><strong>Jeff Bond - mycatbign</strong></li>
-                <li><strong>Laurie Anderson - plipandfirt </strong></li>
-                <li><strong>Mike Galarneau - five0ffour</strong></li>
+                <li><span class="text-intro"><strong>Chris Gauthier - chrsgauthier5</strong></span></li>
+                <li><span class="text-intro"><strong>Jeff Bond - mycatbign</strong></span></li>
+                <li><span class="text-intro"><strong>Laurie Anderson - plipandfirt</strong></span></li>
+                <li><span class="text-intro"><strong>Mike Galarneau - five0ffour</strong></span></li>
               </ul>
             </div>
           </div>
@@ -110,6 +104,7 @@
         <div class="wrap size-60 alignleft">
           <h2 class="text-landing">Application Concept</h2>
           <br />
+
           <div style='font-size: 150%;'>
             <p class="text-intro"> Hot-or-Not Superhero (Marvel) Edition!</p>
             <ul>
@@ -124,18 +119,31 @@
               <li>Pivot to fetch & display app - incorporating Wiki API</li>
               <br>
               <li>Ability to view other users Heroes/Villains and peruse information</li>
-            </ul>
-
+          </ul>
 
           </div>
         </div>
       </section>
 
       <!-- Slide 4 - Design Process -->
-      <section class="bg-black">
+      <section class="bg-dark">
+        <span class="background" style="background-image:url('https://images.unsplash.com/photo-1516053256215-94022213b13c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=703a399feb6c6139d4e355122c0ef2cc&auto=format&fit=crop&w=1867&q=80')"></span>
         <div class="wrap">
           <h3>Design Process</h3>
           <ul class="flexblock gallery">
+            <li>
+              <a href="#">
+                <figure>
+                  <img alt="Storyboard" src="static/images/storyboard.JPG">
+                  <figcaption>
+                    <h2>Storyboard / Wireframes</h2>
+                    <p>napkin sketches of screens & flow </p>
+                    <p>data need between screens</p>
+                    <p>roles & responsibilities as we progress</p>
+                  </figcaption>
+                </figure>
+              </a>
+            </li>
             <li>
               <a href="#">
                 <figure>
@@ -157,19 +165,6 @@
                     <p>"protect the master" - feature branches</p>
                     <p> maker-checker approval & review process</p>
                     <p> feature owner merges to master</p>
-                  </figcaption>
-                </figure>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <figure>
-                  <img alt="Storyboard" src="static/images/storyboard.JPG">
-                  <figcaption>
-                    <h2>Storyboard / Wireframes</h2>
-                    <p>napkin sketches of screens & flow </p>
-                    <p>data need between screens</p>
-                    <p>roles & responsibilities as we progress</p>
                   </figcaption>
                 </figure>
               </a>
@@ -202,19 +197,7 @@
         </div>
       </section>
 
-      <!-- Slide 6 - Coding Examples -->
-      <section class="bg-black aligncenter">
-        <span class="background" style="background-image:url('https://source.unsplash.com/46T6nVjRc2w')"></span>
-        <div class="wrap">
-          <h1 class="bg-trans-dark text-landing text-shadow"><strong>Coding Examples</strong></h1>
-          <p class="text-shadow bg-trans-dark">
-            <a href="https://github.com/plipandfirt/Squirrelmageddon-Project-1">
-              https://github.com/plipandfirt/Squirrelmageddon-Project-1</a>
-          </p>
-        </div>
-      </section>
-
-      <!-- Slide 7 - Demonstration -->
+      <!-- Slide 6 - Demonstration -->
       <section class="bg-black">
         <span class="background" style="background-image:url('static/images/ironman.jpg')"></span>
         <div class="wrap size-60 alignleft">
@@ -237,12 +220,19 @@
         <!-- .end .wrap -->
       </section>
 
-      <!-- Slide 8 - Sprint Retrospective  -->
+      <!-- Slide 7 - Sprint Retrospective  -->
       <section class="bg-black aligncenter">
         <span class="background" style="background-image:url('https://source.unsplash.com/n9WPPWiPPJw/')"></span>
         <div class="wrap">
           <h2>Sprint Retrospective</h2>
-          <p class="text-intro">What went well and what suggestions to improve our process</p>
+          <p class="text-intro">
+            <ul style="list-style:none">
+              <li>What went well?</li>
+              <li>What didn’t go so well?</li>
+              <li>What have I learned?</li>
+              <li>What still puzzles me?</li>
+            </ul>
+          </p>
           <div class="grid">
             <div class="column">
               <h6>Chris</h6>
@@ -258,56 +248,104 @@
                 unde suscipit explicabo aliquam pariatur exercitationem voluptatibus culpa, nesciunt, aliquid repellat.</p>
               <p class="text-symbols">* * *</p>
             </div>
-            <div class="column">
+            <div class="column content-left">
               <h6>Jeff</h6>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda libero accusantium quo nihil quam
-                unde suscipit explicabo aliquam pariatur exercitationem voluptatibus culpa, nesciunt, aliquid repellat.</p>
+              <ol style="list-style-type: decimal">
+                <li>Velocity and GitHub went well.</li>
+                <li>Communication a work in progress.</li>
+                <li>Value in granular well defined concise branches.</li>
+                <li>Predicting "showstoppers" in Agile environment.</li>
+              </ol>
               <p class="text-symbols">* * *</p>
             </div>
-            <div class="column">
+            <div class="column content-left">
               <h6>Mike</h6>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda libero accusantium quo nihil quam
-                unde suscipit explicabo aliquam pariatur exercitationem voluptatibus culpa, nesciunt, aliquid repellat.</p>
+              <ol>
+                <li>Team collaborated through GitHub exceptionally well, no rollbacks/merge conflicts. No pets </li>
+                <li>Be consistent communicating daily. Set a daily stand-up time</li>
+                <li>Learned JSON API integrations and Firebase, Wikipedia is robust </li>
+                <li>Constantly refine the vision and write features concisely. Go deeper into event driven design </li>
+              </ol>
               <p class="text-symbols">* * *</p>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- Slide 9 - Future Development  -->
-      <section class="bg-black">
-        <span class="background" style="background-image:url('static/images/guardians.jpg')"></span>
+      <!-- Slide 8 - Coding Examples -->
+      <section class="bg-black aligncenter">
+        <span class="background" style="background-image:url('https://source.unsplash.com/46T6nVjRc2w')"></span>
         <div class="wrap">
-          <div class="card-80 bg-black">
-            <div class="flex-content">
-              <h2>Future Development</h2>
-              <br />
-              <ul style="list-style: none; text-indent: -23px;">
-                <li><strong>OAuth Logins</strong></li>
-                <li><strong>Simultaneous multi-player events using back-end server</strong></li>
-                <li><strong>Future APIs - OMDB Movie database integration </strong></li>
-                <li><strong>Game Design - grid based scoring, massive scale out for polling, integrate with Twitter</strong></li>
-                <li><strong>Theme Skins - Star Wars vs Star Trek, Sports themes, etc</strong></li>
-            </div>
+          <h1 class="bg-trans-light text-landing text-shadow"><strong>Coding Examples</strong></h1>
+          <p class="text-shadow bg-trans-light">
+            <a href="https://github.com/plipandfirt/Squirrelmageddon-Project-1">
+              https://github.com/plipandfirt/Squirrelmageddon-Project-1</a>
+          </p>
+        </div>
+      </section>
+
+      <!-- Slide 9 - Link Placement Example -->
+      <section class="bg-black aligncenter">
+          <span class="background" style="background-image:url('https://source.unsplash.com/n9WPPWiPPJw/')"></span>
+          <div class="wrap">
+          <img class="alignleft size-70" src="static/images/link-placement.png"></span>
+          <h2> Link placement & order matters! </h2>
+          </div>
+      </section>
+
+      <!-- Slide 10 - Firebase Keys -->
+      <section class="bg-black aligncenter">
+          <span class="background" style="background-image:url('https://source.unsplash.com/n9WPPWiPPJw/')"></span>
+          <div class="wrap">
+          <img class="alignright size-70" src="static/images/firebase-key.png"></span>
+          <h2>Capturing Firebase keys with session storage</h2>
+          </div>
+      </section>
+
+      <!-- Slide 11 - Marvel API -->
+      <section class="bg-black aligncenter slide-center">
+          <span class="background" style="background-image:url('https://source.unsplash.com/n9WPPWiPPJw/')"></span>
+          <div class="wrap">
+          <img class="aligncenter size-70" src="static/images/marvel-hash.png"></span>
+          <h2>Marvel API with hashed keys</h2>
+          </div>
+      </section>
+
+      <!-- Slide 12 - Future Development  -->
+      <section class="slide-top bg-dark">
+        <span class="background" style="background-image:url('https://www.indiewire.com/wp-content/uploads/2017/05/guardiansofthegalaxy2-babygroot-detonator1.jpg')"></span>
+        <div class="wrap">
+          <div class="content-left">
+            <h2 style="color:white">Future Development</h2>
+            <br />
+            <ul style="list-style: none; text-indent: -23px; color:white">
+              <li><strong>Login - OAuth</strong></li>
+              <li><strong>User - Query Marvel/WIkipedia to find your own characters</strong></li>
+              <li><strong>Scale Out - Simultaneous multi-player events using back-end server</strong></li>
+              <li><strong>Future APIs - OMDB Movie and Twitter integrations </strong></li>
+              <li><strong>Game Design - vote based scoring, chat channels</strong></li>
+              <li><strong>Theme Skins - Star Wars vs Star Trek, Sports themes, etc</strong></li>
+              <li><strong>Card Driven - Use the special abilities for a card driven game</strong></li>
           </div>
         </div>
       </section>
 
-      <!-- Slide 10 - Marvel's Battle Royale-->
+      <!-- Slide 13 - Marvel's Battle Royale-->
       <section class="bg-black aligncenter">
         <span class="background" style="background-image:url('static/images/battle-royale.png')"></span>
         <div class="wrap">
-          <h1 class="bg-trans-dark text-landing text-shadow"><strong>Marvel Battle Royale 2018</strong></h1>
-          <p class="bg-trans-dark text-landing text-shadow">Coincidentally Marvel releases their own voting based game
+          <h1 class="bg-trans-light text-landing text-shadow" style="color:yellow"><strong>Marvel Battle Royale</strong></h1>
+          <p class="bg-trans-light text-content" style="color:yellow">Coincidentally Marvel releases their own voting
+            based game
             this week</p>
-          <p class="text-shadow bg-trans-dark">
+          <p class="text-shadow bg-trans-light">
             <a href="https://www.marvel.com/articles/comics/marvel-battle-royale-2018-begins">
               https://www.marvel.com/articles/comics/marvel-battle-royale-2018-begins</a>
           </p>
         </div>
       </section>
 
-      <!-- Slide 11 - Final - What's Next -->
+      <!-- Slide 14 - Final - What's Next -->
       <section class="bg-black slide-top">
         <div class="wrap">
           <img class="alignright size-50" src="static/images/squirrel.png" alt="squirrel superman">

@@ -1,4 +1,10 @@
-# WebSlides = Create stories with Karma
+# Marvel Hot or Not - WebSlides presentation
+Launch index.html to find a simple presentation on the squirrelmageddon's foray into developing a voting game based on the Marvel Character Universe.   This README won't repeat the story since the presentation mode would do it much better.  
+
+Instead, this readme is devoted to (and lifted from) the WebSlides framework.   All the capabilites and features used in the
+presentation are a direct benefit of this framework. 
+
+## WebSlides - Create stories with Karma
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 [![Release](https://img.shields.io/github/release/webslides/webslides.svg)](https://github.com/webslides/webslides/releases/latest)
@@ -108,3 +114,4 @@ You can add:
 Marvel Splash:  https://images5.alphacoders.com/283/283337.jpg  
 Venom:  http://getwallpapers.com/collection/marvel-venom-wallpaper-hd
 Iron-man:  http://7-themes.com/data_images/collection/9/4505277-iron-man-hd-wallpapers.jpg
+Groot:  https://www.indiewire.com/wp-content/uploads/2017/05/guardiansofthegalaxy2-babygroot-detonator1.jpg
